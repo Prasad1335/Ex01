@@ -1,0 +1,38 @@
+<!-- <h1>{{name}}</h1> -->
+<!-- <h1>{{address.city}}</h1>
+<h1>{{address.pin}}</h1>
+
+<pre>
+    city:{{address.city}}
+    pin:{{address.pin}}
+    country:{{address.country}}
+</pre> -->
+
+
+
+
+
+<ul>
+    
+        <li *ngFor="let addr of addrs">
+            <!-- name :<input type="text"  (change)="SetCity($event)"><br> -->
+            {{addr.city}}
+            
+             <!-- Pin :<input type="text" (change)="SetPin($event)"><br> -->
+            {{addr.pin}}
+            
+             <!-- Contry:<input type="text" (change)="SetCountry($event)"><br> -->
+            {{addr.country}}
+        </li>  
+
+</ul>
+
+<!-- <h1>{{names}}</h1> -->
+
+<!-- angular ng for loop -->
+<ul>
+    <li *ngFor="let name of names">{{name}}</li>  
+</ul>
+
+
+
